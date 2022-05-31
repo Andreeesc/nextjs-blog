@@ -1,0 +1,19 @@
+.listItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color:rgba(100, 148, 237, 0.37);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: all ease .3s;
+  padding: 0 20px;
+}
+.listItem:hover{
+  border-left: 30px solid cornflowerblue;
+}
+
+.metaText{
+  font-size: .8rem;
+  font-weight: 100;
+}
